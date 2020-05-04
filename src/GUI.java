@@ -1,3 +1,5 @@
+//Import Required Stuff
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -14,7 +16,7 @@ public class GUI implements ActionListener {
     private static JLabel success;
 
     //Main method
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //Setup Panel
         JPanel panel = new JPanel();
         //Setup frame
@@ -64,15 +66,16 @@ public class GUI implements ActionListener {
         //Make the frame Visible
         frame.setVisible(true);
     }// main method end
+
     // this code will be run when the button is pressed
     @Override
     public void actionPerformed(ActionEvent e) {
         String user = userText.getText();
         String password = passwordText.getText();
         //Print Login succsessful if the text inputed equals the correct login
-        if(user.equals("Daniel") && password.equals("Password")){
+        if (user.equals("Daniel") && password.equals("Password")) {
             success.setText("Login Successful!");
-        }else{
+        } else {
             //else remove the text
             success.setText("");
         }
