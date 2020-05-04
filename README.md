@@ -1,6 +1,6 @@
 <h1>Java GUI Login Form</h1>
 
-<p>A Simple Login Form Made in Java using swing!</p>
+<p>A Simple Login Form Made in Java using Swing!</p>
 
 <img src="https://i.postimg.cc/7hHD2mCx/Default.png">
 
